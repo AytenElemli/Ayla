@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.col-4{
+    width: calc(100%/3);
+}
+.tam{
+    width: 80%;
+    margin: 0 10%;
+}
+.w-100{
+    width: 100%;
+}
+.tarix{
+    background-color: rgb(20, 116, 120);
+    color: white;
+    top: 1px;
+    padding: 10px;
+    position: absolute;
+    width: auto;
+}
+.vaxt{
+    background-color: rgb(50, 50, 95);
+    color: white;
+    top: 50px;
+    padding: 5px;
+    position: absolute;
+    width: auto;
+}
+p{
+  color: rgb(5, 5, 49);
+  font-size: 30px;
+
+}
+.item{
+    border: 1px solid rgb(228, 226, 226);
+    background-color: whitesmoke;
+    height: 100%;
+    margin: 1px 2px;
+
+}
+.icon{
+    font-size: 30px;
+    background-color: rgb(220, 219, 219);
+    border: 1px solid black;
+    margin-right: 10px;
+    text-align: center;
+ }
+ .tam2{
+    width: 80%;
+    margin: 0 10%;
+    justify-content: space-around;
+ }
+.las{
+   font-size: 40px;
+
+ }
+ .lar{
+   font-size: 40px;
+ }
